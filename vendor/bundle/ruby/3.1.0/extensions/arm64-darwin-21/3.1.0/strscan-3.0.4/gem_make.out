@@ -1,0 +1,18 @@
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+/opt/homebrew/opt/ruby/bin/ruby -I /opt/homebrew/lib/ruby/site_ruby/3.1.0 extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+creating Makefile
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20220918-73629-a745z4 sitelibdir\=./.gem.20220918-73629-a745z4 clean
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20220918-73629-a745z4 sitelibdir\=./.gem.20220918-73629-a745z4
+compiling strscan.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+linking shared-object strscan.bundle
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20220918-73629-a745z4 sitelibdir\=./.gem.20220918-73629-a745z4 install
+/usr/bin/install -c -m 0755 strscan.bundle ./.gem.20220918-73629-a745z4

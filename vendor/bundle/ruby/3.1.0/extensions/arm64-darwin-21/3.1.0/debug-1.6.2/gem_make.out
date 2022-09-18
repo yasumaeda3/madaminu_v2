@@ -1,0 +1,20 @@
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/debug-1.6.2/ext/debug
+/opt/homebrew/opt/ruby/bin/ruby -I /opt/homebrew/lib/ruby/site_ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/debug-1.6.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20220918-73629-aknohl sitelibdir\=./.gem.20220918-73629-aknohl clean
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/debug-1.6.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20220918-73629-aknohl sitelibdir\=./.gem.20220918-73629-aknohl
+compiling debug.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling iseq_collector.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+linking shared-object debug/debug.bundle
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/debug-1.6.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20220918-73629-aknohl sitelibdir\=./.gem.20220918-73629-aknohl install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20220918-73629-aknohl/debug

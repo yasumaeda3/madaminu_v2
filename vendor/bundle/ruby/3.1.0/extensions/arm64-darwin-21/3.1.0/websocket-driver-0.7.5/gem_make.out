@@ -1,0 +1,17 @@
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/opt/homebrew/opt/ruby/bin/ruby -I /opt/homebrew/lib/ruby/site_ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20220918-73629-kfnax6 sitelibdir\=./.gem.20220918-73629-kfnax6 clean
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20220918-73629-kfnax6 sitelibdir\=./.gem.20220918-73629-kfnax6
+compiling websocket_mask.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20220918-73629-kfnax6 sitelibdir\=./.gem.20220918-73629-kfnax6 install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20220918-73629-kfnax6

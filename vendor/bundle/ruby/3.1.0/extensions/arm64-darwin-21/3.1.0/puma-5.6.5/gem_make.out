@@ -1,0 +1,34 @@
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/puma-5.6.5/ext/puma_http11
+/opt/homebrew/opt/ruby/bin/ruby -I /opt/homebrew/lib/ruby/site_ruby/3.1.0 extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+checking for X509_STORE_up_ref()... yes
+checking for SSL_CTX_set_ecdh_auto(NULL, 0) in openssl/ssl.h... yes
+checking for SSL_CTX_set_dh_auto(NULL, 0) in openssl/ssl.h... yes
+checking for SSL_get1_peer_certificate() in openssl/ssl.h... no
+checking for Random.bytes... yes
+creating Makefile
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/puma-5.6.5/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20220918-73629-jqzwxv sitelibdir\=./.gem.20220918-73629-jqzwxv clean
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/puma-5.6.5/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20220918-73629-jqzwxv sitelibdir\=./.gem.20220918-73629-jqzwxv
+compiling http11_parser.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling mini_ssl.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling puma_http11.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+linking shared-object puma/puma_http11.bundle
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/madaminu_v2/vendor/bundle/ruby/3.1.0/gems/puma-5.6.5/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20220918-73629-jqzwxv sitelibdir\=./.gem.20220918-73629-jqzwxv install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20220918-73629-jqzwxv/puma
