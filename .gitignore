@@ -5,11 +5,11 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/.bundle
+/api/.bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
+/api/log/*
+/api/tmp/*
 !/log/.keep
 !/tmp/.keep
 
@@ -29,3 +29,5 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+/api/tmp/
