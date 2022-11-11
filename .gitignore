@@ -10,24 +10,22 @@
 # Ignore all logfiles and tempfiles.
 /api/log/*
 /api/tmp/*
-!/log/.keep
-!/tmp/.keep
+!/api/log/.keep
+!/api/tmp/.keep
 
 # Ignore pidfiles, but keep the directory.
-/tmp/pids/*
-!/tmp/pids/
-!/tmp/pids/.keep
+/api/tmp/pids/*
+!/api/tmp/pids/
+!/api/tmp/pids/.keep
 
 # Ignore uploaded files in development.
-/storage/*
-!/storage/.keep
-/tmp/storage/*
-!/tmp/storage/
-!/tmp/storage/.keep
+/api/storage/*
+!/api/storage/.keep
+/api/tmp/storage/*
+!/api/tmp/storage/
+!/api/tmp/storage/.keep
 
-/public/assets
+/api/public/assets
 
 # Ignore master key for decrypting credentials and more.
-/config/master.key
-
-/api/tmp/
+/api/config/master.key
