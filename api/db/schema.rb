@@ -10,22 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_11_11_074237) do
+ActiveRecord::Schema[7.0].define(version: 20_221_113_012_313) do
   # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
+  enable_extension 'plpgsql'
 
-  create_table "tags", force: :cascade do |t|
-    t.string "name"
+  create_table 'tags', force: :cascade do |t|
+    t.string 'name'
   end
 
-  create_table "videos", force: :cascade do |t|
-    t.string "video_url"
-    t.string "coordinates"
-    t.time "length"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "thumbnail_url"
-    t.string "vimeo_id"
+  create_table 'videos', force: :cascade do |t|
+    t.string 'video_url'
+    t.string 'coordinates'
+    t.time 'length'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.string 'thumbnail_url'
+    t.string 'vimeo_id'
+    t.index ['vimeo_id'], name: 'index_videos_on_vimeo_id', unique: true
   end
-
 end

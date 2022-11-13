@@ -1,0 +1,13 @@
+current directory: /Users/yasuhiromaeda/madaminu_v2/api/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+/opt/homebrew/opt/ruby/bin/ruby -I /opt/homebrew/lib/ruby/site_ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/api/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20221113-7829-dpxl4y sitelibdir\=./.gem.20221113-7829-dpxl4y clean
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/api/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20221113-7829-dpxl4y sitelibdir\=./.gem.20221113-7829-dpxl4y
+make: Nothing to be done for `all'.
+
+current directory: /Users/yasuhiromaeda/madaminu_v2/api/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20221113-7829-dpxl4y sitelibdir\=./.gem.20221113-7829-dpxl4y install
