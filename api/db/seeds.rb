@@ -7,20 +7,14 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 Video.create!([
-                {
-                  video_url: 'https://vimeo.com/770354130',
+                { video_url: 'https://vimeo.com/770354130',
                   vimeo_id: '770354130',
                   length: '00:00:29',
-                  thumbnail_url: ''
-                },
-
-                {
-                  video_url: 'https://vimeo.com/770354220',
+                  thumbnail_url: ''},
+                { video_url: 'https://vimeo.com/770354220',
                   vimeo_id: '770354220',
                   length: '00:00:33',
-                  thumbnail_url: ''
-                },
-
+                  thumbnail_url: ''},
                 { video_url: 'https://vimeo.com/770354304',
                   vimeo_id: '770354304',
                   length: '00:00:46',
